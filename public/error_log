@@ -1,0 +1,22 @@
+[29-May-2018 10:51:58 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Input' not found in /home/itec2017/public_html/orhan/app/Http/Controllers/PageController.php on line 50
+[29-May-2018 10:53:02 UTC] PHP Fatal error:  Class 'Illuminate\Support\Facades\input' not found in /home/itec2017/public_html/orhan/app/Http/Controllers/PageController.php on line 51
+[29-May-2018 10:53:18 UTC] PHP Fatal error:  Class 'Illuminate\Support\Facades\input' not found in /home/itec2017/public_html/orhan/app/Http/Controllers/PageController.php on line 51
+[29-May-2018 10:54:56 UTC] PHP Fatal error:  Class 'Illuminate\Support\Facades\input' not found in /home/itec2017/public_html/orhan/app/Http/Controllers/GalleryImageController.php on line 31
+[29-May-2018 10:57:42 UTC] PHP Fatal error:  Class 'Illuminate\Support\Facades\input' not found in /home/itec2017/public_html/orhan/app/Http/Controllers/GalleryImageController.php on line 31
+[29-May-2018 10:59:02 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Mail' not found in /home/itec2017/public_html/orhan/app/Http/Controllers/GalleryImageController.php on line 33
+[11-Sep-2020 09:05:04 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException: The file "/tmp/phpTEzLrQ" does not exist in /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/File/File.php:37
+Stack trace:
+#0 /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/File/UploadedFile.php(66): Symfony\Component\HttpFoundation\File\File->__construct('/tmp/phpTEzLrQ', true)
+#1 /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/FileBag.php(87): Symfony\Component\HttpFoundation\File\UploadedFile->__construct('/tmp/phpTEzLrQ', 'x.php', 'image/png', 1326, 0)
+#2 [internal function]: Symfony\Component\HttpFoundation\FileBag->convertFileInformation(Array)
+#3 /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/FileBag.php(90): array_map(Array, Array)
+#4 /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/FileBag.php(52): Symfony\Component\HttpFoundation\FileBag->convertFileInformation(Array)
+#5 /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/FileBag. in /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/File/File.php on line 37
+[29-Nov-2020 20:08:10 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException: The file "/tmp/phpdW1oUI" does not exist in /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/File/File.php:37
+Stack trace:
+#0 /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/File/UploadedFile.php(66): Symfony\Component\HttpFoundation\File\File->__construct('/tmp/phpdW1oUI', true)
+#1 /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/FileBag.php(87): Symfony\Component\HttpFoundation\File\UploadedFile->__construct('/tmp/phpdW1oUI', 'coder.php', '', 1340, 0)
+#2 /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/FileBag.php(52): Symfony\Component\HttpFoundation\FileBag->convertFileInformation(Array)
+#3 /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/FileBag.php(61): Symfony\Component\HttpFoundation\FileBag->set('file', Array)
+#4 /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/FileBag.php(40): Symfony\Component\HttpFoundation\FileBag->add(Array)
+#5 in /home/itec2017/public_html/orhan/vendor/symfony/http-foundation/File/File.php on line 37
